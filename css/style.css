@@ -63,5 +63,18 @@ body {
     transform: translate(-50%, -50%);
  }
 
+ main .slogan {
+    position: absolute;
+    top: 80%;
+    left: 30%;
+    font-size: 50px;
+    text-transform: uppercase;
+    font-weight: 900;
+    width: 500px;
+    text-align: center;
+    color: yellow;
+    word-spacing: 10px;
+ }
+
  
 
