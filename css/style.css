@@ -36,7 +36,7 @@ body {
     height: 50px;
     color: rgb(0, 0, 0);
     background-color: white;
-    border: 1px solid blue;
+    border: 1px solid transparent;
     border-radius: 50%;
     text-align: center;
     text-decoration: none;
@@ -52,11 +52,16 @@ body {
     background-position: center;
  }
 
+ /* *** background *** */
  #red {
      background-color: red;
  }
 
- main #shoe-1 {
+ #green {
+     background-color: green;
+ }
+
+ main #shoe-1, main #shoe-2 {
     position: absolute;
     top: 50%;
     left: 50%;
