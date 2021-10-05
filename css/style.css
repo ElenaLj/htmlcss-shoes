@@ -5,6 +5,10 @@
     box-sizing: border-box;
 }
 
+body {
+    font-family: 'Inconsolata', monospace;
+}
+
 .container {
     width: 100%;
     margin: 0 auto;
