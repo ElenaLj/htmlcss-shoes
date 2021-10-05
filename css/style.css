@@ -46,6 +46,12 @@ body {
     font-weight: 900;
 }
 
+/* *** nav hover *** */
+nav ul li a:hover {
+    color: white;
+    background-color: blue;
+}
+
 /* *** viewport *** */
  main .box {
     width: 100%;
