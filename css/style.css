@@ -13,3 +13,33 @@ body {
     width: 100%;
     margin: 0 auto;
 }
+
+.container .nav-menu {
+    height: 50px;
+    line-height: 50px;
+    position: fixed;
+    top: 0;
+    right: 0;
+}
+
+.nav-menu nav ul li {
+    padding: 3px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.nav-menu nav ul li a {
+    display: inline-block;
+    vertical-align: middle;
+    width: 50px;
+    height: 50px;
+    color: rgb(0, 0, 0);
+    background-color: white;
+    border: 1px solid blue;
+    border-radius: 50%;
+    text-align: center;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 900;
+}
+
